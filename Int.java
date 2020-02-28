@@ -107,3 +107,4 @@ public class Int {
       for (int i=0;i<c.length; i++) 
     	  digits[i]=(int)c[i]-zeroPos;
    }
+}
