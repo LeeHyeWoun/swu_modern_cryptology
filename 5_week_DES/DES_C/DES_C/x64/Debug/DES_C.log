@@ -1,0 +1,3 @@
+﻿  소스.cpp
+D:\encryption\C_Encryption\DES_C\DES_C\소스.cpp(132,1): warning C4326:  'main'의 반환 형식이 'int'이어야 하는데 'void'입니다.
+  DES_C.vcxproj -> D:\encryption\C_Encryption\DES_C\x64\Debug\DES_C.exe

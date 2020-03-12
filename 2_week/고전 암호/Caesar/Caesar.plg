@@ -1,0 +1,32 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Caesar - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\jcha\LOCALS~1\Temp\RSPEA.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/Caesar.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\2013\강의\2학기\암호학 프로그래밍\암호학 프로그래밍 수정본\소스코드 최종(하재철)\비밀키 암호\고전 암호\Caesar\Caesar.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\jcha\LOCALS~1\Temp\RSPEA.tmp" 
+Creating temporary file "C:\DOCUME~1\jcha\LOCALS~1\Temp\RSPEB.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/Caesar.pdb" /debug /machine:I386 /out:"Debug/Caesar.exe" /pdbtype:sept 
+".\Debug\Caesar.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\jcha\LOCALS~1\Temp\RSPEB.tmp"
+<h3>Output Window</h3>
+Compiling...
+Caesar.c
+Linking...
+
+
+
+<h3>Results</h3>
+Caesar.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
