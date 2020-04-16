@@ -13,21 +13,21 @@ typedef unsigned char BYTE;
 typedef unsigned int UINT;
 
 /* 함수 선언 */
-void DES_Encryption( BYTE* p_text, BYTE* result, BYTE* key );		// DES 암호화 함수
-void DES_Decryption( BYTE* c_text, BYTE* result, BYTE* key );		// DES 복호화 함수
+void DES_Encryption( BYTE* p_text, BYTE* result, BYTE* key );	// DES 암호화 함수
+void DES_Decryption( BYTE* c_text, BYTE* result, BYTE* key );	// DES 복호화 함수
 void IP( BYTE* in, BYTE* out );									// 초기 치환 함수
 void In_IP( BYTE* in, BYTE* out );								// 역 초기 치환 함수
-void EP( UINT r, BYTE* out );										// 확장 치환 함수
-UINT Permutation( UINT in );										// 치환 함수
-void PC1( BYTE* in, BYTE* out );									// 치환 선택 - 1 함수
+void EP( UINT r, BYTE* out );									// 확장 치환 함수
+UINT Permutation( UINT in );									// 치환 함수
+void PC1( BYTE* in, BYTE* out );								// 치환 선택 - 1 함수
 void PC2( UINT c, UINT d, BYTE* out );							// 치환 선택 - 2 함수
-UINT S_box_Transfer( BYTE* in );									// S-box 변환 함수
+UINT S_box_Transfer( BYTE* in );								// S-box 변환 함수
 UINT f( UINT in, BYTE* rkey );									// f 함수
-void key_expansion( BYTE* key, BYTE exp_key[16][6] );				// 키 확장 함수
+void key_expansion( BYTE* key, BYTE exp_key[16][6] );			// 키 확장 함수
 void swap( UINT* x, UINT* y );									// 스왑 함수
 void makeBit28( UINT* c, UINT* d, BYTE* data );					// 56 bit를 28 bit로 나누는 함수
-UINT cir_shift( UINT n, int r );									// 28 bit 순환 시프트 함수
-void BtoW( BYTE* in, UINT* x, UINT* y );							// byte를 word로 바꾸는 함수
+UINT cir_shift( UINT n, int r );								// 28 bit 순환 시프트 함수
+void BtoW( BYTE* in, UINT* x, UINT* y );						// byte를 word로 바꾸는 함수
 void WtoB( UINT l, UINT r, BYTE* out );							// word를 byte로 바꾸는 함수
 
 /* 전역 변수 */
